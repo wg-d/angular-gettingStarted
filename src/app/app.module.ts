@@ -13,6 +13,7 @@ import { CartComponent } from './cart/cart.component';
 import { ShippingComponent } from './shipping/shipping.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { SvgComponent } from './svg/svg.component';
+import { ImageGhostDirective } from './image-ghost.directive';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { SvgComponent } from './svg/svg.component';
     ProductDetailsComponent,
     CartComponent,
     ShippingComponent,
-    SvgComponent
+    SvgComponent,
+    ImageGhostDirective
   ],
   imports: [
     BrowserModule,

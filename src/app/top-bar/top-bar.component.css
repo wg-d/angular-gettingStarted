@@ -36,6 +36,9 @@
 .dropdown:hover .dropdown-content{
     display: block;
 }
+.search-icon {
+    margin-top: 8px;
+}
 .login-icon {
     width: 28px;
 }
