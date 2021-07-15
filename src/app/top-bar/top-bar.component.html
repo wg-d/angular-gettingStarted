@@ -1,9 +1,29 @@
-<a [routerLink]="['/']">
-  <img src= "./assets/logo.svg">  
-  <h1>My Store</h1>
+<div class="logo-wrapper">
+  <a [routerLink]="['/']">
+    <img src= "./assets/logo.svg">  
   </a>
-  
-  <a routerLink = '/cart' class="button fancy-button">
-    <i class="material-icons">shopping_cart</i>Checkout
-  </a>
-  
+</div>
+<div class="nav-wrapper">
+  <ul>
+    <li>
+      <a href="#">Home</a>
+    </li>
+    <li class="dropdown">
+      <a class="dropbtn">Membership</a>
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </li>
+    <li>
+      <a href="#">Blog</a>
+    </li>
+    <li>
+      <a href="#">Contact Us</a>
+    </li>
+  </ul>
+</div>
+<a routerLink = '/cart' class="button fancy-button">
+  <i class="material-icons">shopping_cart</i>Checkout
+</a>
