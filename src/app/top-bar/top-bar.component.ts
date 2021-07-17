@@ -11,8 +11,4 @@ export class TopBarComponent implements OnInit {
   
   ngOnInit(): void {
   }
-  search(){
-    console.log("OK");
-    
-  }
 }
