@@ -10,18 +10,18 @@ export interface Product {
       id: 1,
       name: 'Jack',
       price: 799,
-      description: 'A large phone with one of the best screens'
+      description: 'I am happy with this blog.'
     },
     {
       id: 2,
       name: 'Harry',
       price: 699,
-      description: 'A great phone with one of the best cameras'
+      description: 'Wonderful ever!'
     },
     {
       id: 3,
       name: 'Susan',
       price: 299,
-      description: ''
+      description: 'Welcome to our platform.'
     }
   ];
